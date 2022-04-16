@@ -1,0 +1,7 @@
+{
+  "name": "SoapBox",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
