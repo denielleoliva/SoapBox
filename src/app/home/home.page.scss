@@ -4,8 +4,14 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+}
+
+.center {
+  display: flex;
+  height: 40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  justify-content: center;
 }
 
 #container strong {
@@ -66,3 +72,4 @@
   text-align: center;
   padding-bottom: 10px;
 }
+
