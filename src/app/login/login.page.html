@@ -8,18 +8,24 @@
 </ion-header>
 
 <ion-content>
-  <form>
+  <form [formGroup]="ionicForm" (ngSubmit)="submitForm()" novalidate>
     <ion-item lines="full">
       <ion-label position="floating">Email</ion-label>
-      <ion-input type="text" required></ion-input>
+      <ion-input formControlName="email" type="text"></ion-input>
     </ion-item>
+    <span class="error ion-padding" *ngIf="isSubmitted && errorControl.name.errors?.required">
+      Email is required.
+    </span>
     <ion-item lines="full">
       <ion-label position="floating">Password</ion-label>
-      <ion-input type="password" required></ion-input>
+      <ion-input formControlName="password" type="text"></ion-input>
     </ion-item>
+    <span class="error ion-padding" *ngIf="isSubmitted && errorControl.name.errors?.required">
+      Password is required.
+    </span>
     <ion-row>
       <ion-col>
-        <ion-button type="submit" color="tertiary" expand="block">Sign In</ion-button>
+        <ion-button [routerLink]="['/tabnav']" type="submit" color="tertiary" expand="block">Sign In</ion-button>
       </ion-col>
     </ion-row>
   </form>

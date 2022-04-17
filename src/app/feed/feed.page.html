@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row *ngFor="let item of data; index as i" self-align-center>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-subtitle><ion-col size="24">{{ item.id }}</ion-col></ion-card-subtitle>
+          <ion-card-subtitle><ion-col size="26">{{ item.createtime }}</ion-col></ion-card-subtitle>
+          <ion-card-title><ion-col size="1"> {{ item.username }}</ion-col></ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-col size="27"> {{ item.postcontent }}</ion-col>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
+</ion-content>
