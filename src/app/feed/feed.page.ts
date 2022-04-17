@@ -15,7 +15,7 @@ export class FeedPage implements OnInit {
       this.data = json;
   });
 
-  
+
 
 }
 

@@ -1,29 +1,32 @@
-{
-  "$id": "1",
-  "$values": [
-    {
-      "$id": "2",
-      "id": 1,
-      "username": "jrkre",
-      "user": null,
-      "postContent": "placeholdercontent",
-      "createTime": "2022-04-17T00:04:47.8639053"
-    },
-    {
-      "$id": "3",
-      "id": 2,
-      "username": "jrkre",
-      "user": null,
-      "postContent": "its a post!",
-      "createTime": "2022-04-17T00:12:27.4528414"
-    },
-    {
-      "$id": "4",
-      "id": 3,
-      "username": "jrkre",
-      "user": null,
-      "postContent": "this is like a twitter app huh uwu",
-      "createTime": "2022-04-17T07:08:48.8616162"
-    }
-  ]
-}
+[
+  {
+    "id": "625b9bef5e24384bfe95d88e",
+    "username": 0,
+    "postcontent": "post content placeholder 10",
+    "createtime": "2014-02-05T06:42:49 +08:00"
+  },
+  {
+    "id": "625b9befb93e209e0bf4d174",
+    "username": 1,
+    "postcontent": "post content placeholder 7",
+    "createtime": "2014-10-26T12:25:10 +07:00"
+  },
+  {
+    "id": "625b9bef623297a12173f836",
+    "username": 2,
+    "postcontent": "post content placeholder 9",
+    "createtime": "2020-09-19T09:25:52 +07:00"
+  },
+  {
+    "id": "625b9bef6840546c93c22a7f",
+    "username": 3,
+    "postcontent": "post content placeholder 1",
+    "createtime": "2014-12-17T07:13:14 +08:00"
+  },
+  {
+    "id": "625b9bef8baba3aeff57f07d",
+    "username": 4,
+    "postcontent": "post content placeholder 5",
+    "createtime": "2021-12-15T09:23:25 +08:00"
+  }
+]
