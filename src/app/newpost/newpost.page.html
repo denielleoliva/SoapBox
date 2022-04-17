@@ -7,6 +7,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content onload="observableTimer()">
-  <span>{{ subscribeTimer }}</span>
+<ion-content>
+  <ion-item>
+    <ion-textarea placeholder="Write your post here..."></ion-textarea>
+  </ion-item>
+  <div padding-left="80%">
+    <ion-button [routerLink]="['/tabnav']" expand="default" color="success">Send</ion-button>
+  </div>
 </ion-content>

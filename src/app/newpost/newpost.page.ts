@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-newpost',
@@ -24,13 +23,5 @@ export class NewpostPage implements OnInit {
 
   }
 
-  
-  observableTimer() {
-    const source = timer(1000, 2000);
-    const abc = source.subscribe(val => {
-      console.log(val, '-');
-      this.subscribeTimer = this.timeLeft - val;
-    });
-  }
 
 }
